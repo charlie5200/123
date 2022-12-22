@@ -37,3 +37,5 @@ for i in n2:
         st.write("對中 200 元！")  
         st.image("恭喜中獎.jpg")
         break
+    else:
+        st.write("再接再厲")
