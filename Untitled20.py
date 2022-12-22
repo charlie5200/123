@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("2022年最新發票對獎程式")
 st.image("最新發票號碼.jpg")
-        num=st.text_input('輸入您的發票號碼')
+    num=st.text_input('輸入您的發票號碼')
         ns = '11174120' 
         n1 = '59276913'                        
         n2 = ['18079936','20591738','64500205']
