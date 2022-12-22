@@ -7,22 +7,22 @@ n1 = '59276913'
 n2 = ['18079936','20591738','64500205']
 n3 = ['ns','n1','n2']
 if num == ns: st.write("對中 1000 萬元！")
-    elif num[-7:] == ns[-7:]:
+elif num[-7:] == ns[-7:]:
+     st.write("再接再厲")
+elif num[-6:] == ns[-6:]:
+     st.write("再接再厲")
+elif num[-5:] == ns[-5:]:
+     st.write("再接再厲")
+elif num[-4:] == ns[-4:]:
+     st.write("再接再厲")
+elif num[-3:] == ns[-3:]:
         st.write("再接再厲")
-    elif num[-6:] == ns[-6:]:
-        st.write("再接再厲")
-    elif num[-5:] == ns[-5:]:
-        st.write("再接再厲")
-    elif num[-4:] == ns[-4:]:
-        st.write("再接再厲")
-    elif num[-3:] == ns[-3:]:
-        st.write("再接再厲")
-    elif num[-2:] == ns[-2:]:
-        st.write("再接再厲")
-    elif num[-1:] == ns[-1:]:
-        st.write("再接再厲")
-    elif num[-0:] == ns[-0:]:
-        st.write("再接再厲")
+elif num[-2:] == ns[-2:]:
+     st.write("再接再厲")
+elif num[-1:] == ns[-1:]:
+     st.write("再接再厲")
+elif num[-0:] == ns[-0:]:
+     st.write("再接再厲")
 if num == ns: st.image("恭喜中獎.jpg")
 if num == n1: st.write("對中 200 萬元！")
 if num == n1: st.image("恭喜中獎.jpg")
