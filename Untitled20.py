@@ -46,3 +46,5 @@ for i in n2:
     elif num[-0:] == i[-0:]:
         st.write("再接再厲")
         break
+if num[-6:] == ns[-6:]:
+    st.write("幸運之神與你擦肩而過")
