@@ -44,5 +44,5 @@ for i in n2:
         st.write("再接再厲")
         break
     elif num[-0:] == i[-0:]:
-        st.write("再接再厲"):
+        st.write("再接再厲")
         break
