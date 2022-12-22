@@ -40,3 +40,9 @@ for i in n2:
     elif num[-2:] == i[-2:]:
         st.write("再接再厲")
         break
+    elif num[-1:] == i[-1:]:
+        st.write("再接再厲")
+        break
+    elif num[-0:] == i[-0:]:
+        st.write("再接再厲"):
+        break
