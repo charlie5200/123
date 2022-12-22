@@ -7,11 +7,12 @@ n1 = '59276913'
 n2 = ['18079936','20591738','64500205']
 n3 = ['ns','n1','n2']
 if num == ns: st.write("對中 1000 萬元！")
+    elif num[-6:] == ns[-6:]:
+        st.write("再接再厲")
 if num == ns: st.image("恭喜中獎.jpg")
 if num == n1: st.write("對中 200 萬元！")
 if num == n1: st.image("恭喜中獎.jpg")
-if num[-6:] == ns[-6:]:
-    st.write("幸運之神與你擦肩而過")
+
     
 for i in n2:
 
