@@ -10,7 +10,10 @@ if num == ns: st.write("對中 1000 萬元！")
 if num == ns: st.image("恭喜中獎.jpg")
 if num == n1: st.write("對中 200 萬元！")
 if num == n1: st.image("恭喜中獎.jpg")
-
+if num[-6:] == ns[-6:]:
+    st.write("幸運之神與你擦肩而過")
+    break
+    
 for i in n2:
 
     if num == i:
@@ -45,7 +48,4 @@ for i in n2:
         break
     elif num[-0:] == i[-0:]:
         st.write("再接再厲")
-        break
-if num[-6:] == ns[-6:]:
-    st.write("幸運之神與你擦肩而過")
         break
