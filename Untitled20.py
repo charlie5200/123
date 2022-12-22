@@ -48,4 +48,4 @@ for i in n2:
         break
 if num[-6:] == ns[-6:]:
     st.write("幸運之神與你擦肩而過")
-    break
+        break
